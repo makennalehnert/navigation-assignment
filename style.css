@@ -1,0 +1,51 @@
+header h1{
+    font-size: 52px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+header nav ul li a{
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0; 
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+header {
+    background: #0B1C51;
+}
+
+
+/* Desktop Version */
+@media all and (min-width: 800px){
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-size: 48px;
+        display: flex;
+        padding: 10px;
+        padding-left: 15px;
+    }
+
+    header nav ul {
+        padding-top: 10px;
+    }
+
+    header nav ul li a{
+        font-family: 'Montserrat';
+        
+    }
+}
